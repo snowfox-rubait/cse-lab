@@ -1,6 +1,9 @@
-# list
+# Online Python compiler (interpreter)
+# Write and run Python online using this editor.
+
+print("Also try Visualize to understand code.")# list
 print("list examples start here.")
-list = ['abd', 79823, 2.22, 'maw', 'a', 'a', 'bruh'] # you can change it on the fly
+list = ['abd', 79823, 2.22, 'maw', 'a', 'a', 'bruh', 'items'] # you can change it on the fly
 print (list)
 print (list[0])
 print (list[1:3])
@@ -48,15 +51,15 @@ print (lista.values())
 print(len(dict), len(lista), len(tuple), len(list))
 
 print ("print key vaule pairs")
-for i in list.items(): #print key vaule pairs
-    print(i)
+for i in dict.items(): #print key vaule pairs
+  print(i)
 print()
 print("print value")
-for i in list.values(): #print vaules
+for i in dict.values(): #print vaules
   print(i)
 print()
 print("print keys")
-for i in list.keys(): #print keys
+for i in dict.keys(): #print keys
   print(i)
 print()
 del(list)
