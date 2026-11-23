@@ -46,3 +46,18 @@ print (lista)
 print(lista.keys())
 print (lista.values())
 print(len(dict), len(lista), len(tuple), len(list))
+
+print ("print key vaule pairs")
+for i in list.items(): #print key vaule pairs
+    print(i)
+print()
+print("print value")
+for i in list.values(): #print vaules
+  print(i)
+print()
+print("print keys")
+for i in list.keys(): #print keys
+  print(i)
+print()
+del(list)
+print(dict.clear())
